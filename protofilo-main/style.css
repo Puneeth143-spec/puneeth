@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(197, 26, 77);
+}
+.first{
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin-bottom: 40px;
+}
+.navbar h1{
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.changing{
+    color:green;
+}
+#new{
+    display: none;
+}
+.content>h1{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(247, 203, 9);
+}
+ul a{
+    padding: 20px;
+    text-decoration: none;
+}
+ul a li:hover{
+    color: rgb(131, 72, 233);
+}
+
+.home {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height:70vh; 
+    margin-top:0;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:300px;
+}
+.content h2{
+    font-size:20px;
+}
+
+.content h1{
+    font-size:25px;
+}
+.content p{
+    font-size:15px;
+}
+
+.icon{
+    display: flex;
+}
+.icon i:hover{
+   transform: scale(1.2);
+   box-shadow: 0px 0px 5px orange,0px 0px 12px rgb(91, 81, 232);
+}
+.icon i{
+    padding: 8px;
+    border: 2px solid #4427AC;
+    border-radius: 50%;
+    background-color: #4427AC;
+    margin-right: 20px;
+    margin-top: 30px;
+    transition: 0.15s;
+}
+
+.content2 p{
+    margin-bottom: 10px;
+}
+
+#About{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: rgb(205, 55, 168);
+    margin-bottom:8px;
+}
+
+.second{
+    display:flex;
+    justify-content:center;
+    height:60vh;
+    padding: 20px;;
+}
+
+.content2{
+   text-align: center;
+}
+.content2 .heading{
+    color:red;
+    font-size:18px;
+    margin-bottom: 10px;;
+}
+.clgname{
+    font-size:15px;
+    color: rgb(64, 45, 173);
+    margin-bottom: 8px;
+}
+ #clg{
+    text-align: center !important; 
+}
+.content2 h4{
+    font-size:10px;
+}
+
+.third{
+    margin:20px;
+}
+
+#head{
+    height: 10%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(57, 44, 159);
+    margin-bottom: 20px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+
+.skill:hover{
+    transform: scale(1.2);
+ }
+
+ @keyframes upanddown{
+    0%{
+        transform: translateY(0);  
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+ }
+ #light{
+    display: none;
+ }
+ #dark{
+    cursor: pointer;
+ }
+
+
+ 
